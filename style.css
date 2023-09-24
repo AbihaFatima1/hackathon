@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+
+}
+.upperbar {
+    height: 1.8rem;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+}
+  .email {
+    margin-left: 4rem;
+}
+.phone {
+margin-left: 5rem;   
+} 
+
+.emph{
+    display: flex;
+    margin: 5%;
+    font-weight: bold;
+}
+.eng {
+    margin-right: 15rem;
+    background-color: white;
+    padding: 0.59rem 1.425rem;
+    font-size: 1.1rem;
+
+}
+.nav{
+    display: flex;
+    border: 2px solid rgb(230, 222, 222);
+    box-shadow: 0 10px 5px rgba(204, 198, 198, 0.25);
+}
+.logo {
+    background-image: url(./logo.jpg);
+    background-size: cover;
+    height: 3.375rem;
+    width:12.5rem ;
+}
+
+ul {
+    display: flex;
+    margin-top: 1rem;
+}
+ li { 
+ padding: 1rem;
+ }
+ 
+ li:hover {text-decoration: underline rgb(95, 218, 95);
+    
+
+}
+ BUTTON {
+   margin-top: 0.5rem;
+   margin-left: 2.5rem;
+ }
+ 
+ 
+ 
+ 
+ .button1 {
+   background-color: #0D6DB7;
+   border-radius: 7px;
+   border-style: none;
+   box-sizing: border-box;
+   color: #FFFFFF;
+   
+   font-size: 12px;
+   font-weight: 500;
+   height: 3.5rem;
+   width: 9rem;
+   padding: 0 1.6rem;
+   text-align: center;
+   justify-content: center; 
+   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 3px;
+   transition: all .5s;
+ }
+ 
+ .button1:hover {
+   box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+   transition-duration: .1s;
+ }
+ 
+ @media (min-width: 768px) {
+   .button1 {
+     padding: 0 2.6rem;
+   }
+ }
+
+
+ .button2 {
+    background-color:#8DC63F ;
+    border-radius: 7px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    height: 3.5rem;
+    line-height: 1rem;
+    width: 9rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 3px;
+    transition: all .5s;
+    }
+
+  
+  .button2:hover {
+    box-shadow: rgba(123, 233, 119, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+  
+  @media (min-width: 768px) {
+    .button2 {
+      padding: 0 2.6rem;
+    }
+  }
+.row {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    display: flex;
+    height: 88%;
+    align-items: center;
+    
+}
+.col {
+    flex-basis: 50%;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+h1 b {
+    color: #8DC63F;
+}
+h3 {
+    font-size: 1.7rem;
+}
+p {
+    font-size: 1.2rem ;
+}
+.btn {
+    height:3rem ;
+    width: 13rem ;
+    margin-top: 2rem;
+    border: 1px solid black;
+}
+img {
+    height: 28rem;
+    width: 28rem;
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+   
+}
+
+
+
+
+
+
+
+
